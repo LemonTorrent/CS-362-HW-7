@@ -2,7 +2,8 @@ import unittest
 import LeapYear
 
 class testCaseAdd(unittest.TestCase):
-    pass
+    def test4(self):
+        self.assertEqual(LeapYear.LeapYear(4), "True")
 
 if __name__ == '__main__':
     unittest.main()
