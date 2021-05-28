@@ -14,5 +14,8 @@ class testCaseAdd(unittest.TestCase):
     def test5(self):
         self.assertEqual(FizzBuzz.FizzBuzz(5), "1 2 Fizz 4 Buzz ")
 
+    def test15(self):
+        self.assertEqual(FizzBuzz.FizzBuzz(15), "1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz ")
+
 if __name__ == '__main__':
     unittest.main()
