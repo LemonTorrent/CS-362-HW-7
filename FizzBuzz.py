@@ -1,7 +1,9 @@
-def FizzBuzz( num ):
+def FizzBuzz(  ):
+    num = 100
     retStatement = ""
     #print (num)
-    print()
+    #print()
+    print("num=", num)
     for i in range(num):
         intStatement = ""
         if ((i + 1) % 3 == 0):
