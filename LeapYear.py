@@ -1,2 +1,2 @@
 def LeapYear( year ):
-    pass
+    return True
